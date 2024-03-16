@@ -28,7 +28,7 @@
     const postMessage = async () => {
       console.log(t.value)
       const body = {
-        username: 'Dennis',
+        username: 'Nelson',
         message: t.value,
       }
       const response = await fetch('https://chat.tiburoncin.lat/messages',
@@ -41,7 +41,6 @@
     }
 
     b.addEventListener('click', postMessage)	
-
 
 
     getMessages()
